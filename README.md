@@ -2,7 +2,9 @@
 NDFU smart city project repository
 # Status 
 ## CAMS downloader and aggregator (done)
-Downloader is based on new CDS API that is state-of-the-art interfate for CAMS since June 2020. To be able launch downloader it's necessary to register at https://ads.atmosphere.copernicus.eu/api-how-to and get key
+Downloader is based on new CDS API that is state-of-the-art interfate for CAMS since June 2020. 
+To be able launch downloader it's necessary to register at https://ads.atmosphere.copernicus.eu/api-how-to and get key
+
 1.1. Set up CDS following creds into $HOME/.cdsapirc  of current user
 url: https://ads.atmosphere.copernicus.eu/api/v2
 key: {uid}:{api-key}
