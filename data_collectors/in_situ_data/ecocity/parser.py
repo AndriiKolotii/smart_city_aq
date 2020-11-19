@@ -30,7 +30,7 @@ df_out=df_out.drop(columns=['stationName'])
 #df_out.to_csv('/Users/andrew/Downloads/res.csv',index=range(0, df.shape[0]))
 
 
-connection = pymysql.connect(host='194.44.29.184', user='ecocity', password='8qVY9uTiHHEWUJ7f', db='ecocity')
+connection = pymysql.connect(host='...', user='...', password='...', db='ecocity')
 cursor=connection.cursor()
 sql = "INSERT INTO ecocity_data(Station_ID, cityName, localName, latitude, longitude, timezone, pol, 	unit, time,	value,	averaging) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
 for i,row in df_out.iterrows():
